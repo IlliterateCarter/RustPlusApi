@@ -13,5 +13,4 @@ public sealed record MapMarkers
     // 6. Crates: doesn't appear anymore in the API
     // 7. GenericRadius: I don't know what is this
     public Dictionary<uint, PatrolHelicopterMarker> PatrolHelicopterMarkers { get; init; } = [];
-    public Dictionary<uint, TravellingVendorMarker> TravellingVendorMarkers { get; init; } = []; 
 }
