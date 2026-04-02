@@ -53,7 +53,7 @@ public static class AppMapMarkerToModel
                     patrolHelicopterMarkers.Add(marker.Id, marker.ToPatrolHelicopterMarker());
                     break;
                 default:
-                    throw new ArgumentException($"Unknown marker type: {marker.Type}");
+                    break;
             }
         }
 
