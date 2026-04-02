@@ -45,16 +45,6 @@ public static class AppMarkerToModel
         };
     }
 
-    public static UnknownMarker ToTravellingVendorMarker (this AppMarker marker)
-    {
-        return new TravellingVendorMarker 
-        {
-            Id = marker.Id,
-            X = marker.X,
-            Y = marker.Y
-        };
-    }
-
     public static VendingMachineItem ToVendingMachineItem(this SellOrder sellOrder)
     {
         return new VendingMachineItem
